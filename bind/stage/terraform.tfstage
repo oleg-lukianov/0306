@@ -1,0 +1,62 @@
+{
+  "version": 4,
+  "terraform_version": "1.0.0",
+  "serial": 18,
+  "lineage": "cb6d20a7-b311-105c-6c2e-36140f450ba4",
+  "outputs": {
+    "google_addrs": {
+      "value": "172.217.19.110",
+      "type": "string"
+    },
+    "google_addrs_ip": {
+      "value": "172.217.19.110",
+      "type": "string"
+    }
+  },
+  "resources": [
+    {
+      "mode": "data",
+      "type": "dns_a_record_set",
+      "name": "google",
+      "provider": "provider[\"registry.terraform.io/hashicorp/dns\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "addrs": [
+              "172.217.19.110"
+            ],
+            "host": "google.com",
+            "id": "google.com"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "dns_a_record_set",
+      "name": "test_0306",
+      "provider": "provider[\"registry.terraform.io/hashicorp/dns\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "addresses": [
+              "172.217.19.110"
+            ],
+            "id": "test-0306.devopsua.tk.",
+            "name": "test-0306",
+            "ttl": 300,
+            "zone": "devopsua.tk."
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.dns_a_record_set.google"
+          ]
+        }
+      ]
+    }
+  ]
+}
