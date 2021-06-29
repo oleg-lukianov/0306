@@ -1,0 +1,26 @@
+{
+  "version": 4,
+  "terraform_version": "1.0.0",
+  "serial": 16,
+  "lineage": "369aea11-7c9a-33d1-a224-12f45c97f348",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "lesson_3",
+      "provider": "provider[\"registry.terraform.io/hashicorp/null\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "5204941694768492242",
+            "triggers": null
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA=="
+        }
+      ]
+    }
+  ]
+}
