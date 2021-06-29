@@ -1,3 +1,16 @@
 # Lesson 2 - Task 1-2
 https://github.com/oleg-lukianov/0306/tree/main/gitlab
+# Lesson 2 - Task 3-4
+https://github.com/oleg-lukianov/0306/commit/f1f8c30332244132abaece4a27720adface3ded2
+
+# Lesson 3
+https://github.com/oleg-lukianov/0306/pull/2
+
+
+
+
+
+
+
+
 
