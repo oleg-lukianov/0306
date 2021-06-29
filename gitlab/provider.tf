@@ -20,7 +20,7 @@ resource "gitlab_project" "admin-project" {
 
 resource "gitlab_project" "admin-project-sub" {
   name = "admin-project-submodule"
-  namespace_id = gitlab_project.admin-project.id
+  #namespace_id = gitlab_project.admin-project.id
 }
 
 resource "gitlab_user" "user_fedor" {
