@@ -1,0 +1,9 @@
+- hosts: farhat
+  gather_facts: True
+  tasks:
+    #      - name: Set a hostname
+    #    ansible.builtin.hostname:
+    #      name: prometheus
+  - name: Debug facts info
+    ansible.builtin.debug:
+      msg: "{{ ansible_date_time.tz }}"

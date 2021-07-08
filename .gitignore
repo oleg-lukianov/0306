@@ -1,4 +1,9 @@
-
+.terraform
+/.terraform
+.terraform/*
+.terraform/
+**/.terraform
+.terraform/**
 *.rbc
 capybara-*.html
 .rspec
@@ -9,7 +14,6 @@ capybara-*.html
 /coverage/
 /spec/tmp
 **.orig
-rerun.txt
 pickle-email-*.html
 
 # TODO Comment out these rules if you are OK with secrets being uploaded to the repo
